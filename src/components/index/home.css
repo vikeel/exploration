@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+.sections, .section {
+  height: 100%;
+}
+#section0,
+#section1,
+#section2,
+#section3 {
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+  color: #fff;
+  height: 100%;
+}
+#section0 {
+  background-color: #3399cc;
+}
+#section1 {
+  background-color: #4c4c4c;
+}
+#section2 {
+  background-color: #f9d93a;
+}
+#section3 {
+  background-color: #b2add8;
+}
+.left {
+  float: left;
+  width: 25%;
+}

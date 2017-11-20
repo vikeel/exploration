@@ -1,0 +1,36 @@
+.slide-inner:after {
+  content: '.';
+  display: table;
+  clear: both;
+}
+.slide-inner:after {
+  *zoom: 1;
+}
+.v-slide {
+  position: relative;
+  overflow: hidden;
+  /*text-align: center;*/
+}
+.slide-inner {
+  width: 2340px;
+}
+.slide-inner img {
+  /*position: absolute;*/
+  width: 100%;
+  max-width: 780px;
+  float: left;
+}
+.slide-indicators {
+  position: absolute;
+  top: 0;
+  /*left: 0;*/
+  right: 80px;
+  bottom: 10px;
+  z-index: 999;
+}
+.slide-indicators .ind {
+  display: inline-block;
+  width: 50px;
+  height: 8px;
+  background-color: #fff;
+}
